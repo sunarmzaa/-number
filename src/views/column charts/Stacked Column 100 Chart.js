@@ -61,7 +61,7 @@ class StackedColumn100Chart extends Component {
 			},
 			{
 				type: "stackedColumn100",
-				name: "ฉีด 2 เข็ม",
+				name: "ฉีด / เข็ม",
 				showInLegend: true,
 				color: "#C0C0C0",
 				dataPoints: [
@@ -86,7 +86,7 @@ class StackedColumn100Chart extends Component {
 			},
 			{
 				type: "stackedColumn100",
-				name: "ลงทะเบียนยังไม่ได้รับ",
+				name: "Bronze",
 				showInLegend: true,
 				color: "#CD7F32",
 				dataPoints: [
@@ -112,7 +112,7 @@ class StackedColumn100Chart extends Component {
 			},
 			{
 				type: "stackedColumn100",
-				name: "จำนวนประชากรคงเหลือ",
+				name: "Bronze",
 				showInLegend: true,
 				color: "#33CC00",
 				dataPoints: [
@@ -141,7 +141,7 @@ class StackedColumn100Chart extends Component {
 		
 		return (
 		<div>
-			<h1>จังหวัดภูเก็ต</h1>
+			<h1>React Stacked Column 100% Chart</h1>
 			<CanvasJSChart options = {options} 
 				onRef={ref => this.chart = ref}
 			/>
