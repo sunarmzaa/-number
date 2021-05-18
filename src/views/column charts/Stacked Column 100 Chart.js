@@ -86,7 +86,7 @@ class StackedColumn100Chart extends Component {
 			},
 			{
 				type: "stackedColumn100",
-				name: "Bronze",
+				name: "ลงทะเบียนยังไม่ได้รับ",
 				showInLegend: true,
 				color: "#CD7F32",
 				dataPoints: [
@@ -112,7 +112,7 @@ class StackedColumn100Chart extends Component {
 			},
 			{
 				type: "stackedColumn100",
-				name: "Bronze",
+				name: "จำนวนประชากรคงเหลือ",
 				showInLegend: true,
 				color: "#33CC00",
 				dataPoints: [
