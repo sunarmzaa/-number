@@ -83,7 +83,7 @@ class Template extends Component {
 		<div>
 			<Navbar bg="dark" variant="dark">
 				<button className="d-lg-none toggle-sidebar"><span className="navbar-toggler-icon"></span></button>
-				<Navbar.Brand href="/">CanvasJS Examples</Navbar.Brand><span className="hidden-xs text-muted">จังหวัดภูเก็ต</span>
+				<Navbar.Brand href="/">กราฟ</Navbar.Brand><span className="hidden-xs text-muted">จังหวัดภูเก็ต</span>
 			  </Navbar>		  
 			  <BrowserRouter>		  
 					<Row>
@@ -139,7 +139,7 @@ class Template extends Component {
 								<ListGroup.Item role="separator" className="divider"></ListGroup.Item>
 								
 								<ListGroup.Item>
-									<a href="#columnCharts" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle"><span>COLUMN & BAR CHARTS</span></a>
+									{/* <a href="#columnCharts" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle"><span>COLUMN & BAR CHARTS</span></a> */}
 								</ListGroup.Item>
 								<ListGroup>
 									<ListGroup className="sub-menu collapse" id="columnCharts">
@@ -147,7 +147,7 @@ class Template extends Component {
 										<ListGroup.Item> <NavLink to="/bar-chart">Bar Chart</NavLink></ListGroup.Item>									
 										<ListGroup.Item> <NavLink to="/range-column-chart">Range Column Chart</NavLink></ListGroup.Item>
 										<ListGroup.Item> <NavLink to="/stacked-column-chart">Stacked Column Chart</NavLink></ListGroup.Item> */}
-										<ListGroup.Item> <NavLink to="/stacked-column-100-chart">Stacked Column 100% Chart</NavLink></ListGroup.Item>
+										<ListGroup.Item> <NavLink to="/stacked-column-100-chart">กราฟแสดงจำนวนประชากร</NavLink></ListGroup.Item>
 										{/* <ListGroup.Item> <NavLink to="/range-bar-chart">Range Bar Chart</NavLink></ListGroup.Item>
 										<ListGroup.Item> <NavLink to="/stacked-bar-chart">Stacked Bar Chart</NavLink></ListGroup.Item>
 										<ListGroup.Item> <NavLink to="/stacked-bar-100-chart">Stacked Bar 100% Chart</NavLink></ListGroup.Item>

@@ -141,7 +141,7 @@ class StackedColumn100Chart extends Component {
 		
 		return (
 		<div>
-			<h1>React Stacked Column 100% Chart</h1>
+			<h1>จังหวัดภูเก็ต</h1>
 			<CanvasJSChart options = {options} 
 				onRef={ref => this.chart = ref}
 			/>
