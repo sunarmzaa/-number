@@ -21,7 +21,7 @@ class RangeBarChart extends Component {
 			},
 			data: [{
 				type: "rangeBar",
-				indexLabel: "${y[#index]}",
+				// indexLabel: "${y[#index]}",
 				yValueFormatString: "#,##0",
 				dataPoints: [
 					{ label: "Minicompact Cars", y: [1450, 3550] },
