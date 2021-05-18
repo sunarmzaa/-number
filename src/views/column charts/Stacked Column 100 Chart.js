@@ -61,7 +61,7 @@ class StackedColumn100Chart extends Component {
 			},
 			{
 				type: "stackedColumn100",
-				name: "ฉีด / เข็ม",
+				name: "ฉีด 1 เข็ม",
 				showInLegend: true,
 				color: "#C0C0C0",
 				dataPoints: [
