@@ -36,7 +36,7 @@ class StackedColumn100Chart extends Component {
 			data: [
 			{
 				type: "stackedColumn100",
-				name: "ข้อมูลประชากร",
+				name: "ฉีด 1 เข็ม",
 				showInLegend: true,
 				color: "#3300FF",
 				dataPoints: [
@@ -61,7 +61,7 @@ class StackedColumn100Chart extends Component {
 			},
 			{
 				type: "stackedColumn100",
-				name: "Silver",
+				name: "ฉีด 2 เข็ม",
 				showInLegend: true,
 				color: "#C0C0C0",
 				dataPoints: [
@@ -116,7 +116,7 @@ class StackedColumn100Chart extends Component {
 				showInLegend: true,
 				color: "#33CC00",
 				dataPoints: [
-					{ label: "ไม้ขาว", y: 789},
+					{ label: "ไม้ขาว", y: 78},
 					{ label: "เทพกระษัตรี", y: 355},
 					{ label: "เชิงทะเล", y: 303},
 					{ label: "เกาะแก้ว", y: 310},
